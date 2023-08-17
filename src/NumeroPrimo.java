@@ -9,7 +9,7 @@ public class NumeroPrimo {
         int numero = lector.nextInt();
         boolean esPrimo = true;
         int i = 2;
-        while(i < numero && esPrimo == true){
+        while(i < Math.sqrt(numero)){
             if(numero % i == 0){
                 esPrimo = false;
             }
